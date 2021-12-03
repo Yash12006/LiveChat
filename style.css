@@ -1,0 +1,47 @@
+#container{
+    width: 60vw;
+    height: 80vh;
+    border: 2px solid black;
+    margin: auto;
+    overflow-y: scroll;
+    overflow:auto;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(rgb(136, 136, 216),white);
+    overflow: hidden;
+}
+#input{
+    width: 60vw;
+    margin:  7px auto;
+    text-align: center;
+}
+input{
+    width: 82%;
+    border-radius: 5px;
+    height: 1.2rem;
+}
+#submit{
+    width: 15%;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+
+.message{
+    background-color: blue;
+    display: block;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 15%;
+    clear: both;
+    
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
